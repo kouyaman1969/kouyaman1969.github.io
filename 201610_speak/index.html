@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<title>メイン</title>
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="author" content="Your name" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+	</head>
+	<body>
+		<h3>Web Speech APIサンプル</h3>
+
+		<button id="btn">音声認識開始</button>
+		<br>
+
+		<div id="content">
+PPAPおが太郎！P、P、A、P、おが太郎！ペンパイナッポーアッポーペン！PPAPおが太郎！
+		</div>
+		<br>
+
+		<select name="rate" id="rate">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3" selected>3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+		</select>
+		<br>
+
+		<select name="pitch" id="pitch">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2" selected>2</option>
+		</select>
+		<br>
+		<br>
+
+		<button id="speak">音声再生</button>
+		<br>
+
+		<button id="cancel">音声停止</button>
+
+		<script src="app.js"></script>
+	</body>
+</html>
